@@ -5,6 +5,7 @@
 html,
 body {
   background: #f5f5f5;
+  font-size: 18px;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -12,12 +13,50 @@ body {
   width: 100%;
 }
 
-.default-header .container-princ-header {
-  color: #ffffff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+.header {
+  height: 60px;
+  background-color: whitesmoke;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.header li {
+  display: inline;
+}
+
+.header img {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.header .container {
+  background-color: whitesmoke;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+}
+
+.header a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header, button {
+  border-radius: 7px;
+  border-color: blue;
+  border-width: 2px;
+  background-color: white;
 }
 
 .container-fluid .container-main {
