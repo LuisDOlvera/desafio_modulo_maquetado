@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #f5f5f5;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.default-header .container-princ-header {
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.container-fluid .container-main {
+  background-color: #f5f5f5;
+}
+
+.container-fluid {
+  padding-bottom: 20px;
+}
+
+.footer-principal {
+  margin-top: 20px;
+}
+
+.col__3__card__rigth_page2 {
+  border-top: solid black 30px;
+  border-radius: 5px;
+  background: #f8f8f2;
+  flex-wrap: wrap;
+  max-width: 25%;
+}
+
+.encabezado_page2_rigth {
+  max-width: 100%;
+  justify-items: center;
+}
+
+.img__titulo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.img_profile_user_icon {
+  max-width: auto;
+}
+
+.titulo__card__rigth__page2 {
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+
+.follow {
+  width: 100%;
+  border-radius: 3px;
+  background: blue;
+  color: white;
+}
+
+.container_info {
+  background-color: #f5f5f5;
+}
+
+.inf__profile {
+  text-align: left;
+  background-color: #f5f5f5;
+}
+
+.joined {
+  text-align: left;
+}
+
+.date {
+  text-align: left;
+}
+
+.biografi {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  display: contents;
+  flex-wrap: wrap;
+  max-width: 25%;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.name_profile_2_colors {
+  font-size: 23px;
+}
+
+.name_blue {
+  color: blue;
+}
+
+.span_biografi_rigth {
+  font-size: 12px;
+}
+
+.dev_community {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  display: contents;
+  flex-wrap: wrap;
+  max-width: 25%;
+  text-align: left;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.dev_community_titul {
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.puntos {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ancord_discusion_div {
+  max-width: 100%;
+}
+
+.ancord_discusion {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .col__3__card__rigth_page2 {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=styles.css.map */
