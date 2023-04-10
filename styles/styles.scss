@@ -36,6 +36,7 @@ body {
             justify-content: left;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 2rem;
+            
         } & h3{
             font-size: 17px;
             color: grey;
@@ -49,6 +50,10 @@ body {
             color: #000;
             font-size: 20px;
             font-weight: bold; 
+        } 
+        & h1:hover{ 
+            color: #3b49df;
+            cursor: pointer;
         } 
     }
 

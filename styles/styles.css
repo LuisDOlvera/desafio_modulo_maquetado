@@ -57,6 +57,10 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+.tboxCenter h1:hover {
+  color: #3b49df;
+  cursor: pointer;
+}
 
 .menuHorizontal {
   display: flex;
