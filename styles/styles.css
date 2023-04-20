@@ -285,6 +285,109 @@ p img {
   color: blue;
 }
 
+/* Segunda pagina */
+.container-reactions-articles {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  margin-left: 163px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.content-heart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.content-heart svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.content-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-comment svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.save {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.content-save {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-save svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.content-points {
+  margin-bottom: 20px;
+}
+
+.svg {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.img-points {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.content-heart .svg svg :hover {
+  fill: red;
+}
+
+.svg1 i:hover {
+  fill: orange;
+}
+
+.content-save .svg svg :hover {
+  fill: blue;
+}
+
+img :hover {
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.number {
+  font-size: 15px;
+}
+
 .footer-principal {
   margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
